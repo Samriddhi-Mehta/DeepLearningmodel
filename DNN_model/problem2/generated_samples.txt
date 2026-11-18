@@ -1,0 +1,45 @@
+GENERATED SHAKESPEARE SAMPLES
+============================
+
+TEMPERATURE 0.2
+----------------
+KING LEAR: What was the sent the man sound the sight of the man the father And stand the shall be prince of the sea That with the prove of the world that shall be some The shall be so of your father soul prince to thee, That I have have shall be my lord, And he hath the shall be so so so her shall be the sea the stand of the people of my lord, And the shall be so so so much a such and man That he shall be my lord, and so man the death, And the shall be so so more of the seasons of the sea of the shall not
+
+
+TEMPERATURE 0.8
+----------------
+KING LEAR:
+God!
+
+AUNE:
+The full.
+
+LADY GREY:
+O, your come? shall have shall I sake on him day.
+
+KING RICHARD III:
+Speak my pause.
+
+MONTAGUE:
+
+Nurse:
+Nay, you would a morther!
+
+LUCIO:
+Come, here far his too merry intent.
+
+MENENIUS:
+I am all seem, live please upon them friends,
+What you, I know from me; 'tis may contends,
+I'll not do the say our gracious in man,
+And his defect me me as her wind his heart:
+That she hands I pray in the pomortal of son.
+
+VIRGILIA:
+I say like so at the sight am a procian:
+Streng
+
+
+TEMPERATURE 1.5
+----------------
+KING LEAR: A henity!- Pray thee possivos.  KUt's madle drine, If it a speev been'd cats you to when with the eagn Before, great wills-chengingnown. Stamn's yield But me love to our dreads, francastary, that he ere'll pose; weilf, thus Irt manner, People, to shy corienlurenct of you? I nong their appray forbidle stortuled us Less of. Shy if be dost: your vremio; but him you'r! Gatio, so you ticliness woe, myself: itnege, Thinks and that ladges:'fw! Why tide what Mranten migtter he lose in asswear woevenly;
