@@ -1,0 +1,104 @@
+problem,model,seed,seq_len,test_acc,macro_f1,test_mse,params,sec_per_epoch,val_loss_nats,bits_per_char,notes
+P1.3_HAR,RNN,42,128,0.777061,0.766301,,5190,4.169078,,,HAR classification; 20 epochs; recovered from saved notebook output
+P1.3_HAR,LSTM,42,128,0.89379,0.893566,,19590,8.730124,,,HAR classification; 20 epochs; recovered from saved notebook output
+P1.3_HAR,GRU,42,128,0.87377,0.871713,,14790,9.946344,,,HAR classification; 20 epochs; recovered from saved notebook output
+P1.3_HAR,RNN,123,128,0.739057,0.735862,,5190,4.010468,,,HAR classification; 20 epochs; recovered from saved notebook output
+P1.3_HAR,LSTM,123,128,0.891754,0.892693,,19590,8.736371,,,HAR classification; 20 epochs; recovered from saved notebook output
+P1.3_HAR,GRU,123,128,0.891076,0.890738,,14790,9.548762,,,HAR classification; 20 epochs; recovered from saved notebook output
+P1.3_HAR,RNN,2026,128,0.797421,0.78761,,5190,4.04641,,,HAR classification; 20 epochs; recovered from saved notebook output
+P1.3_HAR,LSTM,2026,128,0.89888,0.899627,,19590,8.725587,,,HAR classification; 20 epochs; recovered from saved notebook output
+P1.3_HAR,GRU,2026,128,0.89379,0.893737,,14790,9.774922,,,HAR classification; 20 epochs; recovered from saved notebook output
+P1.4_Adding,RNN,42,50,,,0.091048,4417,0.47,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,RNN,123,50,,,0.172817,4417,0.46,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,RNN,2026,50,,,0.083849,4417,0.47,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,42,50,,,0.007553,17473,0.57,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,123,50,,,0.004054,17473,0.53,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,2026,50,,,0.005536,17473,0.52,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,42,50,,,0.000633,13121,0.5,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,123,50,,,0.001073,13121,0.5,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,2026,50,,,0.000711,13121,0.5,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,RNN,42,100,,,0.169795,4417,0.49,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,RNN,123,100,,,0.170367,4417,0.49,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,RNN,2026,100,,,0.17037,4417,0.46,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,42,100,,,0.170376,17473,0.53,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,123,100,,,0.019706,17473,0.53,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,2026,100,,,0.012615,17473,0.54,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,42,100,,,0.000987,13121,0.52,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,123,100,,,0.001389,13121,0.5,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,2026,100,,,0.0012,13121,0.5,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,RNN,42,200,,,0.168362,4417,0.51,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,RNN,123,200,,,0.168304,4417,0.51,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,RNN,2026,200,,,0.168256,4417,0.5,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,42,200,,,0.168374,17473,0.52,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,123,200,,,0.168292,17473,0.53,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,2026,200,,,0.168182,17473,0.55,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,42,200,,,0.002034,13121,0.54,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,123,200,,,0.001274,13121,0.53,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,2026,200,,,0.001092,13121,0.53,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,RNN,42,400,,,0.153653,4417,0.51,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,RNN,123,400,,,0.154603,4417,0.51,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,RNN,2026,400,,,0.153883,4417,0.53,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,42,400,,,0.153697,17473,0.57,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,123,400,,,0.153502,17473,0.57,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,LSTM,2026,400,,,0.153473,17473,0.57,,,Adding problem; solved=False; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,42,400,,,0.005105,13121,0.57,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,123,400,,,0.005037,13121,0.56,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.4_Adding,GRU,2026,400,,,0.005231,13121,0.55,,,Adding problem; solved=True; 20 epochs; gradient clipping norm=1.0
+P1.5b_HiddenSweep,LSTM,42,200,,,0.168515,1297,0.96,,,Hidden size=16; solved=False
+P1.5b_HiddenSweep,LSTM,123,200,,,0.168496,1297,1.02,,,Hidden size=16; solved=False
+P1.5b_HiddenSweep,LSTM,2026,200,,,0.168566,1297,0.55,,,Hidden size=16; solved=False
+P1.5b_HiddenSweep,LSTM,42,200,,,0.168365,4641,0.56,,,Hidden size=32; solved=False
+P1.5b_HiddenSweep,LSTM,123,200,,,0.168256,4641,0.54,,,Hidden size=32; solved=False
+P1.5b_HiddenSweep,LSTM,2026,200,,,0.168238,4641,0.56,,,Hidden size=32; solved=False
+P1.5b_HiddenSweep,LSTM,42,200,,,0.168374,17473,0.57,,,Hidden size=64; solved=False
+P1.5b_HiddenSweep,LSTM,123,200,,,0.168292,17473,0.6,,,Hidden size=64; solved=False
+P1.5b_HiddenSweep,LSTM,2026,200,,,0.168182,17473,0.57,,,Hidden size=64; solved=False
+P1.5b_HiddenSweep,LSTM,42,200,,,0.168817,67713,0.95,,,Hidden size=128; solved=False
+P1.5b_HiddenSweep,LSTM,123,200,,,0.168397,67713,0.95,,,Hidden size=128; solved=False
+P1.5b_HiddenSweep,LSTM,2026,200,,,0.168402,67713,0.93,,,Hidden size=128; solved=False
+P1.5b_HiddenSweep,GRU,42,200,,,0.004204,977,0.54,,,Hidden size=16; solved=True
+P1.5b_HiddenSweep,GRU,123,200,,,0.003842,977,0.54,,,Hidden size=16; solved=True
+P1.5b_HiddenSweep,GRU,2026,200,,,0.004842,977,0.54,,,Hidden size=16; solved=True
+P1.5b_HiddenSweep,GRU,42,200,,,0.0018,3489,0.54,,,Hidden size=32; solved=True
+P1.5b_HiddenSweep,GRU,123,200,,,0.001795,3489,0.52,,,Hidden size=32; solved=True
+P1.5b_HiddenSweep,GRU,2026,200,,,0.003224,3489,0.52,,,Hidden size=32; solved=True
+P1.5b_HiddenSweep,GRU,42,200,,,0.002034,13121,0.54,,,Hidden size=64; solved=True
+P1.5b_HiddenSweep,GRU,123,200,,,0.001274,13121,0.54,,,Hidden size=64; solved=True
+P1.5b_HiddenSweep,GRU,2026,200,,,0.001092,13121,0.54,,,Hidden size=64; solved=True
+P1.5b_HiddenSweep,GRU,42,200,,,0.000391,50817,0.62,,,Hidden size=128; solved=True
+P1.5b_HiddenSweep,GRU,123,200,,,0.000828,50817,0.62,,,Hidden size=128; solved=True
+P1.5b_HiddenSweep,GRU,2026,200,,,0.000571,50817,0.61,,,Hidden size=128; solved=True
+P1.5c_GradientClipping,RNN,42,200,,,0.168362,4417,0.556122,,,Clipping (norm=1.0); solved=False; recovered from saved notebook output
+P1.5c_GradientClipping,RNN,42,200,,,0.168184,4417,0.456958,,,No clipping; solved=False; recovered from saved notebook output
+P1.5c_GradientClipping,RNN,123,200,,,0.168304,4417,0.517849,,,Clipping (norm=1.0); solved=False; recovered from saved notebook output
+P1.5c_GradientClipping,RNN,123,200,,,0.168392,4417,0.458588,,,No clipping; solved=False; recovered from saved notebook output
+P1.5c_GradientClipping,RNN,2026,200,,,0.168256,4417,0.506346,,,Clipping (norm=1.0); solved=False; recovered from saved notebook output
+P1.5c_GradientClipping,RNN,2026,200,,,0.168275,4417,0.461122,,,No clipping; solved=False; recovered from saved notebook output
+P1.5a_GradientFlow,RNN,42,200,,,0.168362,4417,,,,Gradient-flow diagnostic; T=200; vanilla RNN; recovered from saved notebook output
+P1.5b_HARHiddenSweep,LSTM_h16,42,128,0.7553444180522565,0.7427036958204815,,1830,5.241543376445771,,,hidden_size=16; epochs=20
+P1.5b_HARHiddenSweep,LSTM_h16,123,128,0.7950458092975907,0.7908468782578462,,1830,5.1510817527771,,,hidden_size=16; epochs=20
+P1.5b_HARHiddenSweep,LSTM_h16,2026,128,0.6769596199524941,0.65478593664005,,1830,5.208742117881775,,,hidden_size=16; epochs=20
+P1.5b_HARHiddenSweep,LSTM_h32,42,128,0.8686800135731252,0.8679921969605079,,5702,5.851380813121796,,,hidden_size=32; epochs=20
+P1.5b_HARHiddenSweep,LSTM_h32,123,128,0.8815744825246012,0.8815020826980997,,5702,5.8405606031417845,,,hidden_size=32; epochs=20
+P1.5b_HARHiddenSweep,LSTM_h32,2026,128,0.8951476077366813,0.8958375190479897,,5702,5.875275921821594,,,hidden_size=32; epochs=20
+P1.5b_HARHiddenSweep,LSTM_h64,42,128,0.8720732948761453,0.8717288268579302,,19590,8.61930650472641,,,hidden_size=64; epochs=20
+P1.5b_HARHiddenSweep,LSTM_h64,123,128,0.8880217170003394,0.8887955671859157,,19590,8.688532733917237,,,hidden_size=64; epochs=20
+P1.5b_HARHiddenSweep,LSTM_h64,2026,128,0.8798778418730913,0.8801616409974518,,19590,8.649491596221925,,,hidden_size=64; epochs=20
+P1.5b_HARHiddenSweep,LSTM_h128,42,128,0.826942653545979,0.8190284363836903,,71942,15.450490939617158,,,hidden_size=128; epochs=20
+P1.5b_HARHiddenSweep,LSTM_h128,123,128,0.8961655921275874,0.896396155692742,,71942,15.53626652956009,,,hidden_size=128; epochs=20
+P1.5b_HARHiddenSweep,LSTM_h128,2026,128,0.9036308109942314,0.904506129208395,,71942,15.531332850456238,,,hidden_size=128; epochs=20
+P1.5b_HARHiddenSweep,GRU_h16,42,128,0.8859857482185273,0.8859511741858991,,1398,5.69101790189743,,,hidden_size=16; epochs=20
+P1.5b_HARHiddenSweep,GRU_h16,123,128,0.9005768578215134,0.9020438539896016,,1398,5.600175547599792,,,hidden_size=16; epochs=20
+P1.5b_HARHiddenSweep,GRU_h16,2026,128,0.8842891075670173,0.8844593510696881,,1398,5.649684369564056,,,hidden_size=16; epochs=20
+P1.5b_HARHiddenSweep,GRU_h32,42,128,0.8982015609093994,0.8970493901110498,,4326,6.2414013862609865,,,hidden_size=32; epochs=20
+P1.5b_HARHiddenSweep,GRU_h32,123,128,0.8897183576518494,0.8907690413794009,,4326,6.318168747425079,,,hidden_size=32; epochs=20
+P1.5b_HARHiddenSweep,GRU_h32,2026,128,0.9036308109942314,0.9035314508173647,,4326,6.263514232635498,,,hidden_size=32; epochs=20
+P1.5b_HARHiddenSweep,GRU_h64,42,128,0.8839497794367153,0.8832143884070106,,14790,8.465832936763764,,,hidden_size=64; epochs=20
+P1.5b_HARHiddenSweep,GRU_h64,123,128,0.8968442483881914,0.8975128690268721,,14790,8.421212160587311,,,hidden_size=64; epochs=20
+P1.5b_HARHiddenSweep,GRU_h64,2026,128,0.8829317950458093,0.8835071034599177,,14790,8.527480053901673,,,hidden_size=64; epochs=20
+P1.5b_HARHiddenSweep,GRU_h128,42,128,0.9053274516457416,0.9051589856818788,,54150,13.806757700443269,,,hidden_size=128; epochs=20
+P1.5b_HARHiddenSweep,GRU_h128,123,128,0.9049881235154394,0.9052530256108688,,54150,13.92415156364441,,,hidden_size=128; epochs=20
+P1.5b_HARHiddenSweep,GRU_h128,2026,128,0.9080420766881574,0.908279849566839,,54150,13.849529778957368,,,hidden_size=128; epochs=20
+P1.5a_GradientFlow,RNN,42,100,,,0.16929909431934356,4417,3.69232949824991,,,T=100 gradient flow; before and after training
+P1.5a_GradientFlow,LSTM,42,100,,,0.17011487817764281,17473,10.801843088499755,,,T=100 gradient flow; before and after training
+P1.5a_GradientFlow,GRU,42,100,,,0.0013555103624239564,13121,10.431671490450118,,,T=100 gradient flow; before and after training
